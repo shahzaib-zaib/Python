@@ -176,3 +176,28 @@ nums[: : 5] # [1, 6, 11, 16]
 
 
 
+
+
+
+#========================= Tuples =========================#
+
+# Tupples are inmutable
+
+tpl = (1, 4, 5, True)
+
+print(tpl[1]) # 4
+
+tpl[1] = 10 # throws an Exception of type TypeError
+
+del tpl[1] # throws an Exception of type TypeError
+
+
+atupple = ("nasir", 100, "Faizan")
+
+len(atupple) # 3
+atupple[1] # 100
+
+a = 12, 45
+a # (12, 45)
+
+a.index(45) # 1
