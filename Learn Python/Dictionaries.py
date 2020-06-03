@@ -52,3 +52,20 @@ aDict = {1:100, 2:200, 3:300, 4:400, 1:1000}
 
 
 "age" in myDict # True
+
+
+
+
+
+#=================== Access or Iterating value For Loop ===================#
+
+myDict = {"name":"Shahzaib", "age":30, "gender": "Male", "email":"shahzaib@gmail.com"}
+
+for value in myDict.values():
+    print(value)
+
+for key in myDict.keys():
+    print(key)
+
+for key, value in myDict.items:
+    print(key, value)
