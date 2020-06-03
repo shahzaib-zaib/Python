@@ -69,3 +69,25 @@ for key in myDict.keys():
 
 for key, value in myDict.items:
     print(key, value)
+
+
+
+
+
+
+#=================== Dictionary That Hold a List ===================#
+
+employee = {'Name' : 'Shamx', 'ChildrenName' : {'Humairah', 'Abdul Rehman'}}
+
+print(employee['ChildrenName'][0]) # 'Humairah'
+print(employee['ChildrenName'][1]) # 'Abdul Rehman'
+
+
+
+
+#=================== Dictionary of Dictionaries ===================#
+
+employee = {'Name' : 'Shamx', 'ChildrenName' : {'Humairah': {'Age' : 10, 'class' : '6th Standard'}, 'Abdul Rehman' : {'Age' : 8, 'class' : '4th Standard'}}}
+
+print(employee['Children']['Humairah'])
+print(employee['Children']['Abdul Rehman']['Age'])
