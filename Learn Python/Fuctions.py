@@ -1,4 +1,4 @@
-def add():
+def add(): # parameter less function
 
     number1 = int(input('Enter a value'))
 
@@ -10,3 +10,9 @@ def add():
 add()
 
 
+
+
+def add(a,b): # parameterised function
+    print(a+b)
+
+add(10,20) # arguments
